@@ -1,0 +1,115 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  color: #40514E
+}
+h3{
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bolder;
+}
+a:hover{
+  color: #EAF6F6;
+}
+h1{
+  padding-top: 50px;
+  margin: 50px auto 0;
+  font-size: 5rem;
+  color: #66BFBF;
+  font-family: 'Dancing Script', cursive;
+  /* 16px=100%=1em */
+}
+h2{
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+hr{
+  border-style: dotted none none;
+  border-color: #8080806b;
+  width: 5%;
+  height: 0;
+  border-width: 8px;
+  margin:100px auto 100px auto;
+}
+.topContainer{
+  background-color: #E4F9F5;
+  padding-top: 50px;
+}
+.topCloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottomCloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.middleContainer{
+
+}
+.profile img{
+  width: 13%;
+  border-radius: 100%;
+  margin-top: 75px;
+}
+.profile p{
+  width: 25%;
+  margin:30px auto 100px;
+  line-height: 2;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+.skill-img1{
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img2{
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me p{
+  margin: auto;
+  line-height: 2;
+  width: 40%;
+}
+.contact-botton{
+  padding: 10px 10px 10px;
+  background: #11CDD4;
+  border-radius: 8px;
+  color: white;
+  display: block;
+  width: 120px;
+  margin: 50px auto 100px;
+}
+.contact-botton:hover{
+  background-color: #0AA1DD;
+}
+
+.bottomContainer{
+  background-color: #66BFBF;
+}
+.footer-link{
+  margin: 50px 20px 70px;
+  display: inline-block;
+}
+.bottomContainer p{
+  margin: 0;
+  position: relative;
+  bottom: 35px;
+  color: #EAF6F6;
+}
